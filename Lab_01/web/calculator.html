@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action = "Calculater" method="POST">
+            <table>
+                <tr>
+                    <td>First:</td><td><input type="text" name="num1"/></td>
+                </tr>
+                <tr>
+                    <td>Second:</td><td><input type="text" name="num2"/></td>
+                </tr>
+
+                <tr>
+                    <td>Operator:</td>   
+                    <td>
+                        <select name="option">
+                            <option value="+">+</option>
+                            <option value="-">-</option>
+                            <option value="*">*</option>
+                            <option value=":">:</option>
+                        </select>
+                        <br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td><td><input type="submit" value="Compute"/></td>
+                </tr>
+                <tr>
+                    <td>Result:</td><td><input type="text" value=""/></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
